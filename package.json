@@ -1,0 +1,39 @@
+{
+  "name": "website-vue-loop-scroll",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The official website of @joyday/vue-loop-scroll.",
+  "keywords": [
+    "vue",
+    "vue3",
+    "vue-component",
+    "loop-scroll",
+    "auto-scroll",
+    "seamless-scroll",
+    "continuous-scroll",
+    "marquee",
+    "scrolling"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "David Zheng<https://github.com/zm8>",
+  "license": "MIT",
+  "packageManager": "pnpm@7.15.0",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "search-insights",
+        "vue"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@joyday/vue-loop-scroll": "^1.0.0",
+    "vitepress": "^1.6.3"
+  }
+}
