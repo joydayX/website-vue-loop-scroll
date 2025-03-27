@@ -1,2 +1,10 @@
 # website-vue-loop-scroll
-The official website of @joyday/vue-loop-scroll.
+
+Documentation for [`@joyday/vue-loop-scroll`](https://www.npmjs.com/package/@joyday/vue-loop-scroll).
+
+## Usage
+
+```bash
+pnpm install
+pnpm docs:dev
+```
