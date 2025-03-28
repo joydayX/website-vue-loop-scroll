@@ -16,7 +16,7 @@ export default defineConfig({
   description:
     "A high-performance Vue component for loop scrolling, supporting large data sets, adaptive resizing, real-time data updates, and flexible scrolling controls.",
   themeConfig: {
-    logo: "/logo_icon.png",
+    logo: "/logo.png",
     nav: nav.en,
     sidebar: sidebar.en,
     darkModeSwitchLabel: "Theme",
