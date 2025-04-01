@@ -18,12 +18,6 @@ pnpm i @joyday/vue-loop-scroll
 npm i @joyday/vue-loop-scroll
 ```
 
-### Yarn
-
-```bash
-yarn add @joyday/vue-loop-scroll
-```
-
 ## Basic Usage
 
 The basic usage of the component.

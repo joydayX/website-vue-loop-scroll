@@ -18,12 +18,6 @@ pnpm i @joyday/vue-loop-scroll
 npm i @joyday/vue-loop-scroll
 ```
 
-### Yarn
-
-```bash
-yarn add @joyday/vue-loop-scroll
-```
-
 ## 基础用法
 
 组件的基础使用方法。
