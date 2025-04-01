@@ -9,19 +9,19 @@ outline: deep
 ### PNPM
 
 ```bash
-pnpm i vue-loop-scroll
+pnpm i @joyday/vue-loop-scroll
 ```
 
 ### NPM
 
 ```bash
-npm i vue-loop-scroll
+npm i @joyday/vue-loop-scroll
 ```
 
 ### Yarn
 
 ```bash
-yarn add vue-loop-scroll
+yarn add @joyday/vue-loop-scroll
 ```
 
 ## 基础用法
