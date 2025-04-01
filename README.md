@@ -5,6 +5,6 @@ Documentation for [`@joyday/vue-loop-scroll`](https://www.npmjs.com/package/@joy
 ## Usage
 
 ```bash
-pnpm install
+pnpm i
 pnpm docs:dev
 ```
