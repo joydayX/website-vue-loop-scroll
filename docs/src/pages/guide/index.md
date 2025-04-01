@@ -18,12 +18,6 @@ pnpm i vue-loop-scroll
 npm i vue-loop-scroll
 ```
 
-### Yarn
-
-```bash
-yarn add vue-loop-scroll
-```
-
 ## Basic Usage
 
 The basic usage of the component.

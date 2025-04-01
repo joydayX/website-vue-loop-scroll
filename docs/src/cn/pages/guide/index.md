@@ -18,12 +18,6 @@ pnpm i vue-loop-scroll
 npm i vue-loop-scroll
 ```
 
-### Yarn
-
-```bash
-yarn add vue-loop-scroll
-```
-
 ## 基础用法
 
 组件的基础使用方法。
