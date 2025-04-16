@@ -27,7 +27,7 @@ export const sidebar = {
           items: [
             { text: "Basic Usage", link: "examples/" },
             { text: "Scroll in All Directions", link: "examples/direction" },
-            { text: "Step-by-Step Pause", link: "examples/step-pause" },
+            { text: "Pause", link: "examples/pause" },
             { text: "Scrolling Speed", link: "examples/speed" },
             {
               text: "Disable Pause on Hover",
@@ -57,7 +57,7 @@ export const sidebar = {
           items: [
             { text: "基本使用", link: "examples/" },
             { text: "四个方向滚动", link: "examples/direction" },
-            { text: "单步滚动停顿", link: "examples/step-pause" },
+            { text: "滚动暂停", link: "examples/pause" },
             { text: "滚动速度控制", link: "examples/speed" },
             { text: "禁用鼠标悬停暂停", link: "examples/disable-hover-pause" },
             { text: "自适应视口大小", link: "examples/responsive" },
