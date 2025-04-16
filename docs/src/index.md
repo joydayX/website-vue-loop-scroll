@@ -24,5 +24,5 @@ features:
     details: Seamlessly adapts to container size changes and real-time data updates, ensuring a consistently smooth scrolling experience.
 
   - title: 🔧 Flexible Scrolling Controls
-    details: Offers flexible controls including four-direction scrolling, step pauses, speed adjustments, and hover interactions.
+    details: Offers flexible controls including four-direction scrolling, Item-based & Page-based Pause, speed adjustments, and hover interactions.
 ---

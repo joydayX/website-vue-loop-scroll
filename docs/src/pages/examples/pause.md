@@ -1,6 +1,8 @@
-# Step-by-Step Pause
+# Scroll Pause
 
-## Example-1
+## 1. Item-based Pause
+
+### Example-1
 
 The component allows you to control the pause duration between steps using the `waitTime` prop. The default value is `0`, meaning no pause.
 
@@ -67,9 +69,9 @@ const dataSource = [
 </style>
 ```
 
-## Example-2
+### Example-2
 
-Single Row Flip Scroll.
+Implemented by setting the container height, e.g.: `.box { height: 45px; }`
 
 <div :class="$style.box2">
   <LoopScroll :dataSource :waitTime="1000"></LoopScroll>
@@ -98,6 +100,62 @@ const dataSource = [
   height: 45px;
   border: 1px solid red;
   :deep(.scroll-loop-item) {
+    padding: 10px 4px;
+  }
+}
+</style>
+```
+
+## 2. Page-based Pause
+
+Enabled by setting the `waitMode="page"` prop to pause after each full page scroll.
+
+<div :class="$style.box">
+  <LoopScroll :dataSource waitMode="page" :waitTime="1000"></LoopScroll>
+</div>
+
+<style module>
+  .box {
+    height: 150px;
+    border: 1px solid red;
+    :global(.scroll-loop-item) {
+      border-bottom: 1px dashed #000;
+      padding: 10px 4px;
+    }
+  }
+  .box2 {
+    height: 45px;
+    border: 1px solid red;
+    :global(.scroll-loop-item) {
+      padding: 10px 4px;
+    }
+  }
+</style>
+
+```vue
+<script setup lang="ts">
+import { LoopScroll } from "@joyday/vue-loop-scroll";
+
+const dataSource = [
+  "1. scrolling scrolling scrolling",
+  "2. scrolling scrolling scrolling",
+  "3. scrolling scrolling scrolling",
+  "4. scrolling scrolling scrolling",
+];
+</script>
+
+<template>
+  <div class="box">
+    <LoopScroll :dataSource waitMode="page" :waitTime="1000"></LoopScroll>
+  </div>
+</template>
+
+<style scoped>
+.box {
+  height: 150px;
+  border: 1px solid red;
+  :deep(.scroll-loop-item) {
+    border-bottom: 1px dashed #000;
     padding: 10px 4px;
   }
 }

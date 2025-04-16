@@ -1,7 +1,7 @@
 import { HeadConfig } from "vitepress";
 
 export const head: HeadConfig[] = [
-  ["link", { rel: "icon", href: "/website-vue-loop-scroll/favicon.ico" }],
+  ["link", { rel: "icon", href: "/website-vue-loop-scroll/logo.png" }],
   [
     "meta",
     {
