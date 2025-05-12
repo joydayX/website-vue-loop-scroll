@@ -1,11 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@joyday/vue-loop-scroll': ^1.1.0
+  '@joyday/vue-loop-scroll': ^1.1.4
   vitepress: ^1.6.3
 
 devDependencies:
-  '@joyday/vue-loop-scroll': 1.1.0
+  '@joyday/vue-loop-scroll': 1.1.4
   vitepress: 1.6.3
 
 packages:
@@ -461,8 +461,8 @@ packages:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: true
 
-  /@joyday/vue-loop-scroll/1.1.0:
-    resolution: {integrity: sha512-Uv63wds7UEWUJgGwNpxY71B55xX9mwC9OBoOHHnP7TTXXPPfnTMBUew1TSmqjJA6aArkLj0CfFwVFOqMZPiRaA==}
+  /@joyday/vue-loop-scroll/1.1.4:
+    resolution: {integrity: sha512-BrWw9Gii6dJiVZAyq0vYvgA/tTj3tdYY9LnP+kOqrbAfi8TVoF6fBx4HK/jcUpMsAobL9Z7lolWYEHAkiSD/Pg==}
     peerDependencies:
       vue: '>=3.0.0'
     peerDependenciesMeta:

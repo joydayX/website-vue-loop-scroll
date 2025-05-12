@@ -33,7 +33,7 @@
     }
   },
   "devDependencies": {
-    "@joyday/vue-loop-scroll": "^1.1.0",
+    "@joyday/vue-loop-scroll": "^1.1.4",
     "vitepress": "^1.6.3"
   }
 }
